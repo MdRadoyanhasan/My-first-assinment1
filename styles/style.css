@@ -1,0 +1,34 @@
+.banner-text{
+    color:white;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    
+    
+    
+
+}
+.banner-tittle{
+    color: white;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+    word-wrap: break-word;
+
+}
+.banner-content{
+    background-image: url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    
+}
+.text{
+    padding: 128px 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+}
