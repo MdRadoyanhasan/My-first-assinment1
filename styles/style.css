@@ -1,4 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+  
 
+}
 body{
     font-family: 'Merriweather', serif;
 
@@ -7,47 +12,47 @@ body{
 
 
 }
-.banner-content-img{
-    background-image: url('../resources/Banner\ Image.png');linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0));
+p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 30px;
+}
+.container{
+    width:1320px;
+    max-width:82%;
+    margin:0 auto;
+}
+ .img{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0)), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-position: center;
     border-radius: 16px;
-    height: 600px;;
-    margin: 0;
-    display:flex ;
-    align-items: center;
-    justify-content: center;
+    background-size: cover; 
+    margin-bottom: 120px;
+    margin-top: 120px;
     
-    
-  
 }
 .banner-text{
     color: white;
     font-size: 32px;
     font-family: Merriweather;
     font-weight: 400;
-    line-height: 40.22px;
-    max-width: 259px;
-    max-height: 40px;
-    text-align: center;
-    
-    
-    
 }
+   
 .banner-tittle{
     color: white;
     font-size: 72px;
     font-family:Merriweather ;
     font-weight: 900;
     line-height: 95px;
-    max-width: 632px;
-    max-height: 190px;
-   
-   
+  
 }
-.banner-content{
-    align-items: center;
-    
+.banner{
+    max-width: 505px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 177px 0;
 }
 
 
@@ -61,21 +66,157 @@ body{
     font-size: 88px;
     font-family: Inter;
     font-weight: 700px;
+    margin-bottom: 48px;
 }
 .our{
     color: #ff0000;
     font-size: 24px;
     font-family: Inter;
     font-weight: 500;
-    margin-top:48px;
+    margin-top:55px;
 
 }
-.all-cate{
+.all-cate {
     color: #070211;
     font-size: 48px;
     font-family: Inter;
     font-weight: 700;
-    margin-top: 0;
+    margin-top:0px;
+    margin-bottom: 48px;
 
 
 }
+
+    
+
+.container-party{
+    background:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0)),url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover; 
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+    
+
+}
+.container-party{
+    width: 82%;
+    max-width:1320px ;
+    margin: 0,auto;
+}
+.chill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chill .party-text *{
+    margin-bottom: 24px;
+    margin-left: 126px;
+}
+.chill .party-text h2{
+    color: white;
+    font-size: 54px;
+    font-family:Merriweather ;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    max-width: 532px;
+}
+.chill .party-img img{
+    width: 100%;
+    max-width: 262px;
+    
+    padding-top: 68px;
+    padding-bottom: 68px;
+    padding-right: 138px;
+}
+
+.text-time{
+   
+    max: width 450px;;
+}
+
+
+span{
+    color: #FF0000;
+    font-size: 32px;
+font-family: Inter;
+font-weight: 600;
+text-transform: capitalize;
+line-height: 56px;
+}
+.place{
+    color: #070211;
+font-size: 32px;
+font-family: Inter;
+font-weight: 600;
+text-transform: capitalize;
+line-height: 56px;
+}
+.text-contain{
+    background: (180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0));
+    text-align: center;
+}
+.btn-join{
+    margin-top:70px;
+    border-radius: 8px;
+    background: #cc2e2e;
+    color: beige;
+    font-size: 20px;
+    padding: 15px 28px;
+    
+}
+.btn{
+    padding-bottom: 126px;
+}
+.text-contain{
+    background-color: burlywood;
+    border-radius: 16px;
+    padding-top:100px ;
+    margin-bottom: 120px;
+}
+.best{
+    color: #FF0000;
+font-size: 24px;
+font-family: Inter;
+font-weight: 500;
+
+}
+.Awesome{
+    color: #070211;
+font-size: 38px;
+font-family: Merriweather;
+font-weight: 900;
+text-transform: capitalize;
+}
+.Dolor{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom:48px;
+}
+.section-container{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    
+    
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
