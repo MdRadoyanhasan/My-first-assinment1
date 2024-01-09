@@ -181,6 +181,24 @@ line-height: 56px;
     background: (180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0));
     text-align: center;
 }
+
+.container-offer-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+
+.sal{
+    color: #f50707;
+    font-size: 38px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+
+
 .btn-join{
     margin-top:70px;
     border-radius: 8px;
@@ -298,6 +316,8 @@ footer{
 }
 .lacal-link{
     text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 .fot-sec{
     display: flex;
